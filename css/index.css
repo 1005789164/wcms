@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+.carousel-caption{
+	background:#000;
+	color:#fff;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	font:12px "Microsoft YaHei";
+	width:100%;
+	bottom:0px;
+	left:0px;
+	padding:0px 5px;
+	text-align:left;
+}
+
+.userRegisterText{
+	display:inline-block;
+	vertical-align: top;
+	width:20%;
+	text-align:right;
+	padding-right:5px;
+}
+.userRegisterInput{
+	display:inline-block;
+	width:70%;
+}
+.userRegisterNotice{
+	font:15px "Microsoft YaHei";
+	color:#ccc;
+	padding: 8px 0px;
+}
+
+#tab_ul li a:focus{
+	background:#337ab7;
+	color:#ffffff;
+}
+
+.img-thumbnail{
+	-moz-transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	transition:all 1s ease-in-out;
+	
+}
+.img-thumbnail:hover{
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	transform:rotateY(180deg);
+}
+
+#divChannelLink .col-md-4 img{
+	margin:10px auto;
+	transition:all 0.5s ease;
+}
+#divChannelLink .col-md-4:hover img{
+	transform:translateY(-1rem);
+}
+
+#divFooter{
+	background-color:34383d;
+	color:white;
+	margin-top:20px;
+	
+}
+#divFooter .row div{
+	color:#cccacc;
+	font:15px/30px "microsoft yahei"
+}
+#divFooter .row a{
+	color:#cccacc;
+}
+#divFooter .row ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#aaa{
+	padding:30px 0;
+	border-bottom:1px solid red;
+}
+.rowLinkLogo .leftLink{
+	text-align:right;
+	border-right:1px solid #454a51;
+}
+.rowLinkLogo .centerLogo{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+.rowLinkLogo .rightLink{
+	text-align:left;
+	font-size:16px;
+	border-left:1px solid #454a51;
+}
+.divCopyright{
+	background-color:#2b2e32;
+	border-top:1px solid #3e4248;
+	padding:20px 0px;
+	text-align:center;
+}
+.divCopyright center{
+	color:#cccacc;
+	font-weight:bold;
+}
